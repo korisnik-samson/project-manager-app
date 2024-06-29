@@ -13,7 +13,7 @@ export interface AvatarProps {
 export interface ISubtaskCardType {
     title: string;
     priority: string; // low, medium, high
-    members: User[]; // array of member users
+    members?: User[]; // array of member users
     description: string;
     imgUrl: string;
     fileCount?: number;
